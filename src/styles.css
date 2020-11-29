@@ -162,6 +162,10 @@ footer ul li a i {
   footer {
     height: 25vh;
   }
+  footer ul li {
+    display: inline;
+    margin-left: 50px;
+  }
   footer ul li a i {
     padding-top: 20px;
   }
