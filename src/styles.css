@@ -78,7 +78,7 @@ h1 {
 
 .nav-link a {
   margin: 10px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: inherit;
   letter-spacing: 2px;
 }
@@ -117,12 +117,38 @@ h1 {
   color: inherit;
 }
 
+footer {
+  height: 12vh;
+  background-color: purple;
+}
+
+footer p {
+  color: orange;
+  font-size: large;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: 250px;
+}
+
+footer ul li a i {
+  color: orange;
+  padding-left: 20px;
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 0.9rem;
   }
   h1 {
     font-size: 2rem;
+  }
+  .back {
+    height: 50vh;
+    background-color: purple;
   }
   .nav-link {
     -webkit-box-orient: vertical;
@@ -132,6 +158,12 @@ h1 {
   }
   .story {
     width: 90%;
+  }
+  footer {
+    height: 25vh;
+  }
+  footer ul li a i {
+    padding-top: 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
