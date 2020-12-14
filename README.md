@@ -3,4 +3,4 @@ This Api shows news related to hacking.This news categorized mostly in 5 categor
 Project Deployed Link:https://hackernews-clone-a73a89.netlify.app/top
 
 Output Screens Of project:
-<IMG SRC="../../../Pictures/Screenshots/Screenshot (198).png" WIDTH="1366" HEIGHT="768" BORDER="0" ALT="">
+<IMG SRC="../../../Pictures/Screenshots/hack.png" WIDTH="1000" HEIGHT="568" BORDER="0" ALT="">
